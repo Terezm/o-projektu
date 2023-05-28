@@ -1,0 +1,172 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  background-image: url(Img/greenFrame.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-inline-start: 40px;
+  background-color: rgb(107, 135, 135);
+  padding: 10px;
+  background-color: rgb(188, 148, 148);
+  border-radius: 20px;
+  font-family: cursive;
+
+}
+
+.frame {
+  width: 600px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family:cursive;
+  color: rgb(21, 16, 10);
+}
+
+.info_about_project {
+  display: flex;
+  align-items: center;
+  max-width: 25rem;
+  margin: 70px auto 50px;
+  border-radius: 20px;
+}
+
+.foto {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  gap: 70px;
+  justify-content: center;
+  width: 70%;
+
+
+}
+
+img {
+  width: 90%;
+} */
+
+.foto_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+  margin: 0 20px 0 0;
+  gap: 30px;
+
+}
+
+
+
+
+
+
+
+
+/*informace o nas*/
+section {
+  display: flex;
+  align-items: center;
+  padding: 100px 15%;
+  overflow: auto;
+  font-family: cursive;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+  font-family: cursive;
+}
+
+.my_foto {
+  width: 350px;
+  border-radius: 50%;
+  float: left;
+  margin: 0 30px 0 0;
+  padding: 0;
+}
+
+.logo_git {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
+div.logo_git img {
+  width: 40px;
+}
+
+/*terka*/ 
+.name {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    text-align: center;
+    font-family: cursive;
+  }
+  
+
+ .terka_foto {
+
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 0 0;
+    
+}
+  
+   
+
+
+  div.lnkd img {
+    width: 40px;
+    padding-top: 40px;
+  }
+
+  .info {
+    font-family: cursive;
+    display: flex;
+    justify-content: left;
+  }
+
+  .lnkd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+  }
